@@ -1,3 +1,7 @@
+document.querySelector('h1').onclick = function() {
+	alert('dont touch the headers!!');
+}
+
 var myImage = document.querySelector('img');
 
 myImage.onclick = function(){
